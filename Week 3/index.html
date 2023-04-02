@@ -2,97 +2,112 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="C:\Users\Usuario\Desktop\BaSP-M2023\Week 3\css\reset.css">
-        <link rel="stylesheet" type="text/css" href="C:\Users\Usuario\Desktop\BaSP-M2023\Week 3\css\styles.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <title>
             MegaRocket
         </title>
     </head>
     <body>
         <header>
-            <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\logo1.png" alt="Logo Mega Rocket"/>
+            <img src="images/logo1.png" alt="Logo Mega Rocket"/>
         </header>
         <aside>
             <nav>
                 <ul>
-                    <li>
+                    <li class="nav">
+                        <img src="images/home-1.png" alt="Home icon"/>
                         <a href="#">
-                        <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\home-1.png" alt="Home icon"/>
                             Home
                         </a>
                     </li>
-                    <li>
+                    <li class="nav">
+                        <img src="images/sign-up.png" alt="Sign up icon"/>
                         <a href="#">
-                            <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\sign-up.png" alt="Sign up icon"/>
-                            Sign Up
+                             Sign Up
                         </a>
                     </li>
-                    <li>
+                    <li class="nav">
+                        <img src="images/sign-in.png" alt="Sign in icon"/>
                         <a href="#">
-                            <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\sign-in.png" alt="Sign in icon"/>
                             Sign In
                         </a>
                     </li>
                 </ul>
             </nav>
-            <h2>Contact Information</h2>
-            <ul>
-                <li>
-                    <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\mail.png" alt="Email icon"/>
-                    <a href="#">information@untitled.tld</a>
-                </li>
-                <li>
-                    <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\phone.png" alt="Phone icon"/>
-                    (000) 000-0000
-                </li>
-                <li>
-                    <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\address.png" alt="Address icon"/>
-                    1234 Somewhere Road #8254 Nashville, TN
-                </li>
-            </ul>
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li class="info">
+                        <img src="images/mail.png" alt="Email icon"/>
+                        information@untitled.tld
+                    </li>
+                    <li class="info">
+                        <img src="images/phone.png" alt="Phone icon"/>
+                        (000) 000-0000
+                    </li>
+                    <li class="info">
+                        <img src="images/address.png" alt="Address icon"/>
+                        1234 Somewhere Road #8254 Nashville, TN
+                    </li>
+                </ul>
+            </div>
         </aside>
         <main>
-            <h1>
-                Mega Rocket Web
-            </h1>
-            <h2>
-                Welcome
-            </h2>
-            <p>
-                Mega Rocket web is a monthly management system for members and trainers so that they can dynamically sign up for their activities in the gym.
-            </p>
-            <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\img1.png" alt = "Image of the gym"/>
-            <section>
-                <article>
-                    <h3>
-                        Features
-                    </h3>
+            <section class="welcome-section">
+                <article class="welcome-article">
+                    <h1>
+                        Mega Rocket Web
+                    </h1>
+                    <h2>
+                        Welcome
+                    </h2>
+                    <p>
+                        Mega Rocket web is a monthly management system for members and trainers so that they can dynamically sign up for their activities in the gym.
+                    </p>
+                </article>
+                <img src="images/img1.png" alt = "Image of the gym"/>
+            </section>
+            <section class="features">
+                <h3>
+                    Features
+                </h3>
+                <article class="features-articles">
+                    <img src="images/logo-rr10.jpg" alt="Shift reservations icon"/>
                     <h4>
-                        <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\logo-rr10.jpg" alt="Shift reservations icon"/>
                          Shift Reservations
                     </h4>
                     <p>
                     Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
                     facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
                     </p>
+                </article>
+                <article class="features-articles">
+                    <img src="images/logo-rr13.jpg" alt="Scheduling icon"/>
                     <h4>
-                        <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\logo-rr13.jpg" alt="Scheduling icon"/>
                         Scheduling & Opening Hours
                     </h4>
                     <p>
                     Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
                     facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
                     </p>
+                </article>
+                <article class="features-articles">
+                    <img src="images/logo-rr11.jpg" alt="Membership management icon"/>
                     <h4>
-                        <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\logo-rr11.jpg" alt="Membership management icon"/>
                         Membership Management
                     </h4>
                     <p>
                     Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
                     facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
                     </p>
+                </article>
+                <article class="features-articles">
+                    <img src="images/logo-rr12.jpg" alt="Contact form icon"/>
                     <h4>
-                        <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\logo-rr12.jpg" alt="Contact form icon"/>
                         Contact Form & Suggestions
                     </h4>
                     <p>
@@ -106,7 +121,7 @@
                     <h3>
                         About Mega Rocket
                     </h3>
-                    <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\img2.png" alt="Image of the gym"/>
+                    <img src="images/img2.png" alt="Image of the gym"/>
                     <p>
                         Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
                         facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
@@ -115,7 +130,7 @@
                         Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
                         facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
                     </p>
-                    <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\img3.png" alt="Image of the gym"/>
+                    <img src="images/img3.png" alt="Image of the gym"/>
                     <p>
                         Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
                         facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
@@ -193,7 +208,7 @@
                         <li>Fitness</li>
                         <li>Boxing</li>
                     </ul>
-                    <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\img4.png" alt="Image of the gym"/>
+                    <img src="images/img4.png" alt="Image of the gym"/>
                 </article>
             </section>
             <section>
@@ -211,36 +226,36 @@
                             </tr>
                             <tr>
                                 <td>Free access to the fitness room</td>
-                                <td><img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\no.png"></td>
-                                <td><img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\yes.png"></td>
-                                <td><img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\yes.png"></td>
+                                <td><img src="images/no.png"></td>
+                                <td><img src="images/yes.png"></td>
+                                <td><img src="images/yes.png"></td>
                             </tr>
                             <tr>
                                 <td>Free access to classes prior enrollment</td>
-                                <td><img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\yes.png"></td>
-                                <td><img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\no.png"></td>
-                                <td><img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\yes.png"></td>
+                                <td><img src="images/yes.png"></td>
+                                <td><img src="images/no.png"></td>
+                                <td><img src="images/yes.png"></td>
                             </tr>
                             <tr>
                                 <td>Personalized follow-up by a trainer</td>
-                                <td><img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\no.png"></td>
-                                <td><img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\yes.png"></td>
-                                <td><img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\yes.png"></td>
+                                <td><img src="images/no.png"></td>
+                                <td><img src="images/yes.png"></td>
+                                <td><img src="images/yes.png"></td>
                             </tr>
                             <tr>
                                 <td>Schedulling visualization</td>
-                                <td><img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\yes.png"></td>
-                                <td><img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\yes.png"></td>
-                                <td><img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\yes.png"></td>
+                                <td><img src="images/yes.png"></td>
+                                <td><img src="images/yes.png"></td>
+                                <td><img src="images/yes.png"></td>
                             </tr>
                     </table>
                 </article>
             </section>
         </main>
         <footer>
-            <a href="#"> <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\linkedin.png" alt="LinkedIn logo"></a>
-            <a href="#"> <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\facebook.png" alt="Facebook logo"></a>
-            <a href="#"> <img src="C:\Users\Usuario\Desktop\BaSP-M2023\Week 2\images\instagram.png" alt="Instagram logo"></a>
+            <a href="#"> <img src="images/linkedin.png" alt="LinkedIn logo"></a>
+            <a href="#"> <img src="images/facebook.png" alt="Facebook logo"></a>
+            <a href="#"> <img src="images/instagram.png" alt="Instagram logo"></a>
             <p>Copyright © 2022 Radium Rocket. All rights reserved.</p>
         </footer>
     </body>
