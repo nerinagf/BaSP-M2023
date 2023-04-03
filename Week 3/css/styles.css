@@ -206,22 +206,68 @@ main{
     color: #373867;
     border-bottom: 3px solid #49A37B;
 }
+.get-in-touch article{
+    font-weight: 500;
+    font-size: 14px;
+    color: #373867;
+}
+
+
+
 .activities h3{
     display: inline-block;
     margin-top: 65px;
     margin-left: 458px;
-    margin-bottom: 58px;
+    margin-bottom: 62px;
     font-weight: 700;
     font-size: 30px;
     color: #373867;
     border-bottom: 3px solid #49A37B;
 }
 .activities ul{
+    margin-top: 22px;
+    float: left;
+    list-style: disc;
     margin-left: 133px;
     font-weight: 876;
     font-size: 24px;
     color: #373867;
 }
+.activities li{
+    padding: 7px;
+}
 .activities img{
-    margin-left: 74px;
+    float: right;
+    margin-right: 132px;
+}
+
+
+
+
+
+.memberships h3{
+    display: inline-block;
+    margin-top: 65px;
+    margin-left: 473px;
+    margin-bottom: 58px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #373867;
+    border-bottom: 3px solid #49A37B;
+}
+
+footer{
+    height: 72px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    background-color:#AACE9B;
+}
+footer a{
+    display: inline-block;
+    padding-left: 10px;
+    margin-top: 8px;
+}
+footer p{
+    color: #FFFFFF;
 }
