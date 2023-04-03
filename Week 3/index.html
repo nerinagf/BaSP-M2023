@@ -18,19 +18,19 @@
         <aside>
             <nav>
                 <ul>
-                    <li class="nav">
+                    <li class="nav-bar">
                         <img src="images/home-1.png" alt="Home icon"/>
                         <a href="#">
                             Home
                         </a>
                     </li>
-                    <li class="nav">
+                    <li class="nav-bar">
                         <img src="images/sign-up.png" alt="Sign up icon"/>
                         <a href="#">
                              Sign Up
                         </a>
                     </li>
-                    <li class="nav">
+                    <li class="nav-bar">
                         <img src="images/sign-in.png" alt="Sign in icon"/>
                         <a href="#">
                             Sign In
@@ -156,7 +156,8 @@
                     Get in touch
                 </h3>
                 <article>
-                        <form action="form_submit.php" method="post">
+                    <form action="form_submit.php" method="post">
+                        <div class="column-left">
                             <div class="first-name">
                                 <label for="first-name">
                                     First name
@@ -183,6 +184,8 @@
                                     Contact reason
                                 </label>
                             </div>
+                        </div>
+                        <div class="column-right">
                             <select class="contact-reason">
                                 <option disabled selected hidden>
                                     Choose contact reason
@@ -205,7 +208,8 @@
                             <div class="enter-message">
                                 <input textarea placeholder="Enter your message"></textarea>
                             </div>
-                        </form>
+                        </div>
+                    </form>
                 </article>
             </section>
             <section class="activities">
@@ -229,33 +233,32 @@
                 </h3>
                 <article>
                     <table>
-                        <thead></thead>
                             <tr class="table1">
-                                <th class="th-only"></th>
+                                <th></th>
                                 <th>Only classes</th>
                                 <th>Classic</th>
                                 <th>Black</th>
                             </tr>
                             <tr class="table2">
-                                <td class="td-only">Free access to the fitness room</td>
+                                <td class="td-first">Free access to the fitness room</td>
                                 <td><img src="images/no.png"></td>
                                 <td><img src="images/yes.png"></td>
                                 <td><img src="images/yes.png"></td>
                             </tr>
                             <tr class="table1">
-                                <td class="td-only">Free access to classes prior enrollment</td>
+                                <td class="td-first">Free access to classes prior enrollment</td>
                                 <td><img src="images/yes.png"></td>
                                 <td><img src="images/no.png"></td>
                                 <td><img src="images/yes.png"></td>
                             </tr>
                             <tr class="table2">
-                                <td class="td-only">Personalized follow-up by a trainer</td>
+                                <td class="td-first">Personalized follow-up by a trainer</td>
                                 <td><img src="images/no.png"></td>
                                 <td><img src="images/yes.png"></td>
                                 <td><img src="images/yes.png"></td>
                             </tr>
                             <tr class="table1">
-                                <td class="td-only">Schedulling visualization</td>
+                                <td class="td-first">Schedulling visualization</td>
                                 <td><img src="images/yes.png"></td>
                                 <td><img src="images/yes.png"></td>
                                 <td><img src="images/yes.png"></td>
