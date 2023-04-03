@@ -157,7 +157,6 @@ main{
     line-height: 23.44px;
     color: #373867;
 }
-
 .about h3{
     display: inline-block;
     margin-top: 65px;
@@ -168,6 +167,13 @@ main{
     color: #373867;
     border-bottom: 3px solid #49A37B;
 }
+.about p{
+    width: 453px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #373867;
+    line-height: 23.44px;
+}
 .article-1 img{
     width: 453px;
     height: 248px;
@@ -176,11 +182,9 @@ main{
 }
 .article-1 p{
     float: right;
+    margin-left: 660px;
+    margin-right: 86px;
     text-align: right;
-    font-weight: 400;
-    font-size: 20px;
-    color: #373867;
-    line-height: 23.44px;
 }
 .article-2 img{
     width: 453px;
@@ -190,12 +194,14 @@ main{
 }
 .article-2 p{
     float: left;
+    margin-left: 87px;
+    margin-right: 659px;
     text-align: left;
-    font-weight: 400;
-    font-size: 20px;
-    color: #373867;
-    line-height: 23.44px;
 }
+
+
+
+
 .get-in-touch h3{
     display: inline-block;
     margin-top: 65px;
@@ -211,6 +217,57 @@ main{
     font-size: 14px;
     color: #373867;
 }
+
+.first-name{
+    margin-left: 150px;
+    margin-bottom: 7px;
+}
+#first-name{
+    margin-left: 150px;
+    margin-bottom: 34px;
+}
+.last-name{
+    margin-left: 150px;
+    margin-bottom: 7px;
+}
+#last-name{
+    margin-left: 150px;
+    margin-bottom: 34px;
+}
+#email-address{
+    margin-left: 150px;
+}
+.email-address{
+    margin-left: 150px;
+    margin-bottom: 7px;
+}
+.submit-button{
+    margin-left: 150px;
+    text-align: center;
+    width: 123px;
+    height: 47px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #373867;
+    background-color: #AACE9B;
+}
+.contact-reason{
+    margin-left: 484px;
+    margin-bottom: 7px;
+}
+#select{
+    margin-left: 484px;
+}
+
+.message{
+    margin-left: 484px;
+    margin-bottom: 7px;
+}
+.enter-message{
+    margin-left: 484px;
+}
+
 
 
 
@@ -255,6 +312,33 @@ main{
     color: #373867;
     border-bottom: 3px solid #49A37B;
 }
+.memberships table{
+    margin-left: 109px;
+    margin-bottom: 65px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #373867;
+}
+.memberships img{
+    margin-left: 100px;
+}
+.table1{
+    background-color: #D9D9D9;
+}
+
+.table1 th{
+    padding: 20px;
+    width: 250px;
+}
+.table1 td{
+    padding: 20px;
+    width: 250px;
+}
+.table2 td{
+    padding: 20px;
+    width: 250px;
+}
+
 
 footer{
     height: 72px;
