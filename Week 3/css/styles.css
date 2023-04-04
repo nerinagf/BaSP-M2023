@@ -209,50 +209,54 @@ main{
     border-bottom: 3px solid #49A37B;
 }
 .get-in-touch article{
-    font-weight: 500;
+    margin: 0 auto;
+    width: 900px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-weight: 600;
     font-size: 14px;
     color: #373867;
 }
-.first-name, .last-name, .email-address{
-    margin-left: 150px;
+.column-left{
+    width: 334px;
+    display: inline-block;
+}
+.column-right{
+    display: inline-block;
+    vertical-align: top;
+}
+.first-name, .last-name, .email-address, .contact-reason, .message{
     margin-bottom: 7px;
 }
 #first-name, #last-name, #email-address{
     width: 260px;
     height: 37px;
-    margin-left: 150px;
-    margin-bottom: 34px;
+    margin-bottom: 22px;
     border-radius: 4px;
     border-color: #373867;
     border-bottom: 1px solid #373867;
 }
 .submit-button{
-    margin-left: 150px;
     text-align: center;
     width: 123px;
     height: 47px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     border-radius: 5px;
-    border: 1px solid #373867;
+    border: none;
+    color: #373867;
     background-color: #AACE9B;
 }
-.contact-reason{
-    margin-left: 484px;
-    margin-bottom: 10px;
-    width: 566px;
+.select-contact-reason{
+    width: 560px;
     height: 36px;
     border-radius: 4px;
     border-color: #373867;
-}
-.message{
-    margin-left: 484px;
-    margin-bottom: 7px;
+    margin-bottom: 22px;
 }
 .enter-message{
-    width: 566px;
+    width: 560px;
     height: 192px;
-    margin-left: 484px;
     border-radius: 4px;
     border-color: #373867;
     border: 1px solid #373867;
@@ -319,7 +323,9 @@ main{
 }
 /* Footer */
 footer{
+    width: 1200px;
     height: 72px;
+    margin-left: 313px;
     text-align: center;
     font-family: 'Roboto';
     font-weight: 700;
