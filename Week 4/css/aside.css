@@ -1,66 +1,76 @@
 
 aside{
-    position: fixed;
     display: none;
-    width: 313px;
-    height: 915px;
-    background-color: #AACE9B;
-    top: 98px;
-    z-index: 1;
 }
-.nav-bar{
-    width: 263px;
-    height: 37.69px;
-    margin: 0 auto;
-    list-style: none;
-    background-color: #FFFFFF;
-    border: 1px solid #373867;
-    border-radius: 5px;
-    margin-bottom: 19px;
-    padding-top: 7.62px;
-}
-.nav-bar img{
-    float: left;
-    margin-left: 79px;
-    margin-right: 10px;
-}
-nav{
-    margin-top: 12.38px;
-}
-nav a{
-    display: inline-block;
-    text-decoration: none;
-    color: #373867;
-    font-family: 'Roboto';
-    font-weight: 876;
-    font-size: 20px;
-    line-height: 23.44px;
-}
-.contact-info{
-    position: relative;
-    top: 462.67px;
-    margin-left: 34.36px;
-}
-.contact-info h2{
-    display: inline-block;
-    font-family: 'Roboto';
-    font-weight: 876;
-    font-size: 20px;
-    line-height: 23.44px;
-    color: #FFFFFF;
-    border-bottom: 3px solid #FFFFFF;
-    margin-left: 32.36px;
-    margin-bottom: 40px;
-}
-.info{
-    list-style: none;
-    font-family: 'Roboto';
-    color: #373867;
-    font-weight: 400;
-    font-size: 20px;
-    margin-bottom: 23px;
-}
-.info img{
-    float: left;
-    margin-right: 16.36px;
+
+@media only screen and (min-width: 1025px) {
+    aside{
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        padding: 30px;
+        width: 313px;
+        height: 90%;
+        background-color: #AACE9B;
+        top: 98px;
+        align-items: center;
+        z-index: 1;
+        justify-content: space-between;
+    }
+    .nav-bar{
+        width: 263px;
+        height: 37.69px;
+        margin: 0 auto;
+        list-style: none;
+        background-color: #FFFFFF;
+        border: 1px solid #373867;
+        border-radius: 5px;
+        margin-bottom: 19px;
+        padding-top: 7.62px;
+    }
+    .nav-bar img{
+        float: left;
+        margin-left: 79px;
+        margin-right: 10px;
+    }
+    nav{
+        margin-top: 12.38px;
+    }
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        color: #373867;
+        font-family: 'Roboto';
+        font-weight: 876;
+        font-size: 20px;
+        line-height: 23.44px;
+    }
+    .contact-info{
+        position: relative;
+        top: 462.67px;
+        margin-left: 34.36px;
+    }
+    .contact-info h2{
+        display: inline-block;
+        font-family: 'Roboto';
+        font-weight: 876;
+        font-size: 20px;
+        line-height: 23.44px;
+        color: #FFFFFF;
+        border-bottom: 3px solid #FFFFFF;
+        margin-left: 32.36px;
+        margin-bottom: 40px;
+    }
+    .info{
+        list-style: none;
+        font-family: 'Roboto';
+        color: #373867;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 23px;
+    }
+    .info img{
+        float: left;
+        margin-right: 16.36px;
+    }
 }
