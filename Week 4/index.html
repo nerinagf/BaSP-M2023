@@ -4,6 +4,10 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/aside.css">
+        <link rel="stylesheet" href="css/content.css">
+        <link rel="stylesheet" href="css/footer.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -75,54 +79,48 @@
                 <h3>
                     Features
                 </h3>
-                <article class="features-articles">
-                    <div class="container">
-                        <img src="images/logo-rr10.jpg" alt="Shift reservations icon"/>
-                        <h4>
-                            Shift Reservations
-                        </h4>
-                    </div>
-                    <p>
-                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
-                    facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                    </p>
-                </article>
-                <article class="features-articles">
-                    <div class="container">
-                        <img src="images/logo-rr13.jpg" alt="Scheduling icon"/>
-                        <h4>
-                            Scheduling & Opening Hours
-                        </h4>
-                    </div>
-                    <p>
-                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
-                    facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                    </p>
-                </article>
-                <article class="features-articles">
-                    <div class="container">
-                        <img src="images/logo-rr11.jpg" alt="Membership management icon"/>
-                        <h4>
-                            Membership Management
-                        </h4>
-                    </div>
-                    <p>
-                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
-                    facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                    </p>
-                </article>
-                <article class="features-articles">
-                    <div class="container">
-                        <img src="images/logo-rr12.jpg" alt="Contact form icon"/>
-                        <h4>
-                            Contact Form & Suggestions
-                        </h4>
-                    </div>
-                    <p>
-                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
-                    facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                    </p>
-                </article>
+                <div class="features-container">
+                    <article class="features-articles">
+                            <img src="images/logo-rr10.jpg" alt="Shift reservations icon"/>
+                            <h4>
+                                Shift Reservations
+                            </h4>
+                        <p>
+                        Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+                        facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                        </p>
+                    </article>
+                    <article class="features-articles">
+                            <img src="images/logo-rr13.jpg" alt="Scheduling icon"/>
+                            <h4>
+                                Scheduling & Opening Hours
+                            </h4>
+                        <p>
+                        Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+                        facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                        </p>
+                    </article>
+                    <article class="features-articles">
+                            <img src="images/logo-rr11.jpg" alt="Membership management icon"/>
+                            <h4>
+                                Membership Management
+                            </h4>
+                        <p>
+                        Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+                        facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                        </p>
+                    </article>
+                    <article class="features-articles">
+                            <img src="images/logo-rr12.jpg" alt="Contact form icon"/>
+                            <h4>
+                                Contact Form & Suggestions
+                            </h4>
+                        <p>
+                        Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+                        facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                        </p>
+                    </article>
+                </div>
             </section>
             <section class="about">
                 <h3>
@@ -140,6 +138,7 @@
                     </p>
                 </article>
                 <article class="article-container">
+                    <img src="images/img3.png" alt="Image of the gym"/>
                     <p class="text-left">
                         Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
                         facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
@@ -148,69 +147,58 @@
                         Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
                         facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
                     </p>
-                    <img src="images/img3.png" alt="Image of the gym"/>
                 </article>
             </section>
             <section class="get-in-touch">
                 <h3>
                     Get in touch
                 </h3>
-                <article>
-                    <form action="form_submit.php" method="post">
-                        <div class="column-left">
-                            <div class="first-name">
-                                <label for="first-name">
-                                    First name
-                                </label>
-                            </div>
-                            <input id="first-name" type="text" placeholder="Enter name">
-                            <div class="last-name">
-                                <label for="last-name">
-                                    Last name
-                                </label>
-                            </div>
-                            <input id="last-name" type="text" placeholder="Enter last name">
-                            <div class="email-address">
-                                <label for="email-address">
-                                    Email address
-                                </label>
-                            </div>
-                            <input id="email-address" type="text" placeholder="Enter address">
-                            <div>
+                <form action="form_submit.php" method="post">
+                                <div class="first-name">
+                                    <label for="first-name">
+                                        First name
+                                    </label>
+                                    <input id="first-name" type="text" placeholder="Enter name">
+                                </div>
+                                <div class="last-name">
+                                    <label for="last-name">
+                                        Last name
+                                    </label>
+                                    <input id="last-name" type="text" placeholder="Enter last name">
+                                </div>
+                                <div class="email-address">
+                                    <label for="email-address">
+                                        Email address
+                                    </label>
+                                    <input id="email-address" type="text" placeholder="Enter address">
+                                </div>
                                 <input class="submit-button" type="submit" value="Submit">
-                            </div>
-                        </div>
-                        <div class="column-right">
-                            <div class="contact-reason">
-                                <label for="contact-reason">
-                                    Contact reason
-                                </label>
-                            </div>
-                            <select class="select-contact-reason">
-                                <option disabled selected hidden>
-                                    Choose contact reason
-                                </option>
-                                <option>
-                                    I want to make a claim
-                                </option>
-                                <option>
-                                    I want to realize a query or suggestion
-                                </option>
-                                <option>
-                                    I want to know the memberships and costs
-                                </option>
-                            </select>
-                            <div class="message">
-                                <label for="message">
-                                    Message
-                                </label>
-                            </div>
-                            <div>
-                                <textarea class="enter-message" placeholder="Enter your message"></textarea>
-                            </div>
-                        </div>
-                    </form>
-                </article>
+                                <div class="contact-reason">
+                                    <label for="contact-reason">
+                                        Contact reason
+                                    </label>
+                                    <select class="select-contact-reason">
+                                    <option disabled selected hidden>
+                                        Choose contact reason
+                                    </option>
+                                    <option>
+                                        I want to make a claim
+                                    </option>
+                                    <option>
+                                        I want to realize a query or suggestion
+                                    </option>
+                                    <option>
+                                        I want to know the memberships and costs
+                                    </option>
+                                    </select>
+                                </div>
+                                <div class="message">
+                                    <label for="message">
+                                        Message
+                                    </label>
+                                    <textarea class="enter-message" placeholder="Enter your message"></textarea>
+                                </div>
+                </form>
             </section>
             <section class="activities">
                 <h3>

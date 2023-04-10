@@ -1,0 +1,22 @@
+*{
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    box-sizing: border-box;
+}
+p{
+    font-size: 20px;
+}
+h3{
+    align-self: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: #373867;
+    border-bottom: 3px solid #49A37B;
+    margin: 50px;
+}
+.features, .about, .get-in-touch, .activities, .memberships{
+    display: flex;
+    flex-direction: column;
+}

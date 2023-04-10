@@ -1,0 +1,15 @@
+header{
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 98px;
+    background-color: #373867;
+    z-index: 1;
+}
+header img{
+    position: fixed;
+    width: 194;
+    height: 41px;
+    top: 28px;
+    left: 29px;
+}
