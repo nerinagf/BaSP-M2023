@@ -16,6 +16,14 @@ h3{
     border-bottom: 3px solid #49A37B;
     margin: 50px;
 }
+.learn-more{
+    margin-top: 20px;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #AACE9B;
+    border-radius: 5px;
+    background-color: #AACE9B;
+}
 .features, .about, .get-in-touch, .activities, .memberships{
     display: flex;
     flex-direction: column;

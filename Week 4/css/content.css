@@ -190,3 +190,143 @@
         text-align: center;
         vertical-align: middle;
     }
+
+@media only screen and (min-width:601px){
+    main{
+        margin-top: 90px;
+    }
+    .welcome-section{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+    .welcome-section h1{
+        font-size: 40px;
+    }
+    .welcome-article{
+        margin-top: -60px;
+    }
+    .welcome-section img{
+        width: 50%;
+    }
+    .features{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .features-articles{
+        max-width: 50%;
+    }
+    .features-articles img{
+        margin-left: 25px;
+    }
+    .features-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 95%;
+    }
+    .article-container{
+        flex-direction: row;
+    }
+    .article-container img{
+        align-items: center;
+        width: 50%;
+    }
+    .article-container p{
+        margin: 0 auto;
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 15px;
+    }
+    .about .article-container{
+        width: 95%;
+        margin: 30px auto;
+    }
+    .learn-more{
+        display: none;
+    }
+    .get-in-touch form{
+        flex-direction: row;
+        text-align: left;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    form input{
+        width: 200px;
+        margin-right: 30px;
+    }
+    .select-contact-reason, .enter-message{
+        width: 200%
+    }
+    .submit-button{
+        display: block;
+        margin: 0 auto;
+    }
+    .activities article{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+    }
+    .activities ul{
+        display: block;
+        padding-left: 19px;
+    }
+
+    .activities ul li{
+        font-size: 20px;
+        list-style: disc;
+    }
+
+    .activities img{
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 350px;
+        height: 145px;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    main{
+        margin-left: 300px;
+    }
+    .welcome-section{
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+    .welcome-article{
+        max-width: 700px;
+    }
+    .features-container{
+        max-width: 1000px;
+    }
+    .features-articles{
+        max-width: 50%;
+    }
+    .article-container p{
+        padding: 20px 55px;
+        font-size: 20px;!important;
+    }
+    .about .article-container{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .activities ul li{
+        font-size: 25px;
+    }
+    .activities img{
+        width: 50%;
+        max-width: 500px;
+        height: 250px;
+    }
+    .memberships table{
+        max-width: 1000px;
+        font-size: 20px;
+    }
+    .table1 td.td-first, .table2 td.td-first{
+        height: 50px;
+    }
+}
